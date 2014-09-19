@@ -1,0 +1,13 @@
+[trusted]
+# the shared web group (usually apache or www-data)
+groups = apache 
+
+[ui]
+# your bitbucket username
+username = <USERNAME>
+
+[auth]
+# your bitbucket username/password
+bb.prefix = https://bitbucket.org 
+bb.username = <USERNAME>
+bb.password = <PASSWORD>
