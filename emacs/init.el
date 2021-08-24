@@ -29,7 +29,6 @@
 (unless package-archive-contents
   (package-refresh-contents))
 
-
 ;; initialize use-package  if needed
 ;; https://github.com/jwiegley/use-package
 (unless (package-installed-p 'use-package) 
